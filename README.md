@@ -3,12 +3,14 @@
 The purpose of this project is to collect and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
 Other files in this Repo are:
+
 1. Codebook.md
 2. run_analysis.R
 
 The codebook.md will explain how the variables work and the transformations done to clean the data. The run_analysis.R is the R script that was used in transforming the data. The r script was successfully executed on a 64 bit Windows 7 system with R  studio version 0.98.501. 
 
 The R script called run_analysis.R that does the following. 
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
